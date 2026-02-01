@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - index.html
+      - src/**
+      - public/**
+      - package.json
+      - .github/workflows/deploy.yml
 
 jobs:
   # Build job
