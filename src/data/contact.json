@@ -1,8 +1,8 @@
 {
   "email": {
     "user": "adam.luczak",
-    "domain": "email.com",
-    "display": "adam.luczak [at] email.com"
+    "domain": "gmail.com",
+    "hide": true
   },
   "linkedin": "https://linkedin.com/in/adam-luczak",
   "github": "https://github.com/aluczak",

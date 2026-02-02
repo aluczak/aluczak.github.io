@@ -1,17 +1,23 @@
+import { useMemo } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
 
-const navItems = [
-  { path: '/', label: 'Home' },
-  { path: '/about', label: 'About' },
-  { path: '/experience', label: 'Experience' },
-  { path: '/skills', label: 'Skills' },
-  { path: '/portfolio', label: 'Portfolio' },
-  { path: '/contact', label: 'Contact' }
-]
+interface NavItem {
+  path: string
+  label: string
+}
 
 export default function Header() {
   const location = useLocation()
+
+  const navItems: NavItem[] = useMemo(() => [
+    { path: '/', label: 'Home' },
+    { path: '/about', label: 'About' },
+    { path: '/experience', label: 'Experience' },
+    { path: '/skills', label: 'Skills' },
+    { path: '/portfolio', label: 'Portfolio' },
+    { path: '/contact', label: 'Contact' }
+  ], [])
 
   return (
     <header className="header">
@@ -25,6 +31,7 @@ export default function Header() {
               key={item.path}
               to={item.path}
               className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
+              aria-current={location.pathname === item.path ? 'page' : undefined}
             >
               {item.label}
             </Link>

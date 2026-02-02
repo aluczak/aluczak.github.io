@@ -1,15 +1,8 @@
-import { useState } from 'react'
-import { contact, getEmail } from '../data/contact'
+import { contact, getEmail, getEncodedEmail } from '../data/contact'
 import Section from '../components/Layout/Section'
 import './Contact.css'
 
 export default function Contact() {
-  const [emailRevealed, setEmailRevealed] = useState(false)
-
-  const handleEmailClick = () => {
-    setEmailRevealed(true)
-  }
-
   return (
     <div className="contact">
       <Section
@@ -26,19 +19,9 @@ export default function Contact() {
             <div className="contact-methods">
               <div className="contact-method">
                 <h3>Email</h3>
-                {emailRevealed ? (
-                  <a href={`mailto:${getEmail()}`} className="contact-link email-revealed">
-                    {getEmail()}
-                  </a>
-                ) : (
-                  <button 
-                    onClick={handleEmailClick}
-                    className="contact-link email-protected"
-                    aria-label="Reveal email address"
-                  >
-                    {contact.email.display}
-                  </button>
-                )}
+                <a href={`mailto:${getEmail()}`} className="contact-link email-revealed">
+                  <span dangerouslySetInnerHTML={{ __html: getEncodedEmail() }} />
+                </a>
               </div>
               
               <div className="contact-method">

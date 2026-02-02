@@ -31,7 +31,7 @@ export default function Portfolio() {
 
         <div className="portfolio-grid">
           {filteredProjects.map((project) => (
-            <div key={project.id} className="portfolio-card">
+            <article key={project.id} className="portfolio-card">
               <div className="portfolio-card-content">
                 <h3 className="portfolio-title">{project.title}</h3>
                 <p className="portfolio-category">
@@ -44,7 +44,7 @@ export default function Portfolio() {
                   ))}
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
 

@@ -43,24 +43,6 @@
   text-decoration: underline;
 }
 
-.email-protected {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
-  color: #3b82f6;
-}
-
-.email-protected:hover {
-  color: #2563eb;
-}
-
-.email-revealed {
-  color: #3b82f6;
-}
-
 .contact-availability {
   background-color: #f0fdf4;
   border: 1px solid #bbf7d0;
