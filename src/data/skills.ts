@@ -52,6 +52,22 @@ export const skills: SkillCategory[] = [
     ]
   },
   {
+    title: 'AI & Machine Learning',
+    description: 'Building intelligent applications and leveraging AI/ML technologies',
+    skills: [
+      'Azure OpenAI Service',
+      'OpenAI API',
+      'Azure Cognitive Services',
+      'LLM Integration',
+      'Prompt Engineering',
+      'RAG (Retrieval-Augmented Generation)',
+      'Vector Databases',
+      'ML.NET',
+      'Python for AI/ML',
+      'AI-Powered Application Development'
+    ]
+  },
+  {
     title: 'Tools & Practices',
     description: 'Development tools and methodologies I use daily',
     skills: [
