@@ -71,4 +71,6 @@ export const experience: Experience[] = [
   }
 ]
 
-export const totalYears = 18
+const START_YEAR = 2006
+
+export const totalYears = new Date().getFullYear() - START_YEAR
