@@ -26,6 +26,11 @@ export default function About() {
               <p>{about.location}</p>
             </div>
             <div className="detail-card">
+              <h3>Education</h3>
+              <p>{about.education.degree}</p>
+              <p className="detail-subtitle">{about.education.institution}, {about.education.year}</p>
+            </div>
+            <div className="detail-card">
               <h3>Availability</h3>
               <p>{contact.availability}</p>
             </div>

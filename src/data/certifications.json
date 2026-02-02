@@ -1,0 +1,94 @@
+{
+  "certifications": [
+    {
+      "id": "1",
+      "name": "Azure Solutions Architect Expert",
+      "issuer": "Microsoft",
+      "date": "2024",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://learn.microsoft.com/",
+      "category": "Cloud"
+    },
+    {
+      "id": "2",
+      "name": "AWS Solutions Architect Professional",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://aws.amazon.com/",
+      "category": "Cloud"
+    },
+    {
+      "id": "3",
+      "name": "Kubernetes Administrator",
+      "issuer": "CNCF",
+      "date": "2023",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://www.cncf.io/",
+      "category": "DevOps"
+    },
+    {
+      "id": "4",
+      "name": "HashiCorp Terraform Associate",
+      "issuer": "HashiCorp",
+      "date": "2022",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://www.terraform.io/",
+      "category": "DevOps"
+    },
+    {
+      "id": "5",
+      "name": "Microsoft Certified: DevOps Engineer Expert",
+      "issuer": "Microsoft",
+      "date": "2022",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://learn.microsoft.com/",
+      "category": "DevOps"
+    },
+    {
+      "id": "6",
+      "name": "Professional Scrum Master II",
+      "issuer": "Scrum.org",
+      "date": "2021",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://www.scrum.org/",
+      "category": "Agile"
+    },
+    {
+      "id": "7",
+      "name": "AWS Certified Developer",
+      "issuer": "Amazon Web Services",
+      "date": "2020",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://aws.amazon.com/",
+      "category": "Cloud"
+    },
+    {
+      "id": "8",
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "date": "2020",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://learn.microsoft.com/",
+      "category": "Development"
+    },
+    {
+      "id": "9",
+      "name": "Professional Scrum Developer",
+      "issuer": "Scrum.org",
+      "date": "2019",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://www.scrum.org/",
+      "category": "Agile"
+    },
+    {
+      "id": "10",
+      "name": "Oracle Certified Professional",
+      "issuer": "Oracle",
+      "date": "2015",
+      "credentialId": "XXX-XXX-XXX",
+      "url": "https://www.oracle.com/",
+      "category": "Database"
+    }
+  ]
+}

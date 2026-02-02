@@ -53,6 +53,13 @@
   margin: 0;
 }
 
+.detail-subtitle {
+  font-size: 0.875rem;
+  font-weight: 400 !important;
+  color: #6b7280 !important;
+  margin-top: 0.25rem !important;
+}
+
 .focus-list {
   list-style: none;
   padding: 0;
