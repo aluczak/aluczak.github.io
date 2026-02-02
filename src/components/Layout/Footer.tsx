@@ -1,4 +1,5 @@
 import { about } from '../../data/about'
+import { contact, getEmail } from '../../data/contact'
 import './Footer.css'
 
 export default function Footer() {
@@ -11,16 +12,16 @@ export default function Footer() {
           <div className="footer-info">
             <p className="footer-name">{about.name}</p>
             <p className="footer-title">{about.title}</p>
-            <p className="footer-availability">{about.availability}</p>
+            <p className="footer-availability">{contact.availability}</p>
           </div>
           <div className="footer-links">
-            <a href={about.linkedin} target="_blank" rel="noopener noreferrer" className="footer-link">
+            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="footer-link">
               LinkedIn
             </a>
-            <a href={about.github} target="_blank" rel="noopener noreferrer" className="footer-link">
+            <a href={contact.github} target="_blank" rel="noopener noreferrer" className="footer-link">
               GitHub
             </a>
-            <a href={`mailto:${about.email}`} className="footer-link">
+            <a href={`mailto:${getEmail()}`} className="footer-link">
               Email
             </a>
           </div>

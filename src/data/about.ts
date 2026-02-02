@@ -3,11 +3,7 @@ export interface AboutData {
   title: string
   bio: string
   shortBio: string
-  email: string
-  linkedin: string
-  github: string
   location: string
-  availability: string
 }
 
 export const about: AboutData = {
@@ -19,9 +15,5 @@ My expertise lies in backend development with .NET and Azure, but I've also work
 
 I believe in continuous learning and staying up-to-date with the latest technologies and best practices. When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing knowledge with the community.`,
   shortBio: 'Senior Software Developer with 18+ years of experience in .NET, Azure, and full-stack development. Remote-first professional committed to building scalable solutions.',
-  email: 'adam.luczak@email.com',
-  linkedin: 'https://linkedin.com/in/adam-luczak',
-  github: 'https://github.com/aluczak',
-  location: 'Remote',
-  availability: 'Open to remote opportunities'
+  location: 'Remote'
 }
