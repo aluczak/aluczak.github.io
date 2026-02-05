@@ -7,6 +7,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* Always reserve space for scrollbar to prevent layout shift */
+  overflow-y: scroll;
 }
 
 body {
