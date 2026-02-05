@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { about } from '../data/about'
-import { totalYears } from '../data/experience'
 import Section from '../components/Layout/Section'
 import './Home.css'
 
@@ -16,10 +15,6 @@ export default function Home() {
             <h2 className="hero-title">{about.title}</h2>
             <p className="hero-bio">{about.shortBio}</p>
             <div className="hero-stats">
-              <div className="stat">
-                <span className="stat-number">{totalYears}+</span>
-                <span className="stat-label">Years Experience</span>
-              </div>
               <div className="stat">
                 <span className="stat-number">Remote</span>
                 <span className="stat-label">Available</span>
@@ -51,16 +46,6 @@ export default function Home() {
         </div>
         <div className="section-cta">
           <Link to="/skills" className="btn btn-outline">See All Skills</Link>
-        </div>
-      </Section>
-
-      {/* Experience Preview */}
-      <Section title="Experience" subtitle={`${totalYears}+ years building software solutions`}>
-        <div className="experience-preview">
-          {about.shortBio}
-        </div>
-        <div className="section-cta">
-          <Link to="/experience" className="btn btn-outline">View Full Timeline</Link>
         </div>
       </Section>
 

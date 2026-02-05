@@ -13,7 +13,6 @@ export default function Header() {
   const navItems: NavItem[] = useMemo(() => [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
-    { path: '/experience', label: 'Experience' },
     { path: '/skills', label: 'Skills' },
     { path: '/certifications', label: 'Certifications' },
     { path: '/portfolio', label: 'Portfolio' },

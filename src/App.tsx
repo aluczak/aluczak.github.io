@@ -3,7 +3,6 @@ import Header from './components/Layout/Header'
 import Footer from './components/Layout/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
-import Experience from './pages/Experience'
 import Skills from './pages/Skills'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
@@ -19,7 +18,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/experience" element={<Experience />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
