@@ -12,7 +12,6 @@ export default function Footer() {
           <div className="footer-info">
             <p className="footer-name">{about.name}</p>
             <p className="footer-title">{about.title}</p>
-            <p className="footer-availability">{contact.availability}</p>
           </div>
           <div className="footer-links">
             <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="footer-link">

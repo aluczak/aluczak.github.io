@@ -8,8 +8,6 @@ export interface ContactData {
   }
   linkedin: string
   github: string
-  availability: string
-  availabilityStatus: 'open' | 'limited' | 'closed'
 }
 
 export const contact: ContactData = data as ContactData

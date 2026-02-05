@@ -14,12 +14,6 @@ export default function Home() {
             <h1 className="hero-name">{about.name}</h1>
             <h2 className="hero-title">{about.title}</h2>
             <p className="hero-bio">{about.shortBio}</p>
-            <div className="hero-stats">
-              <div className="stat">
-                <span className="stat-number">Remote</span>
-                <span className="stat-label">Available</span>
-              </div>
-            </div>
             <div className="hero-actions">
               <Link to="/portfolio" className="btn btn-primary">View My Work</Link>
               <Link to="/contact" className="btn btn-secondary">Get In Touch</Link>
@@ -53,7 +47,7 @@ export default function Home() {
       <section className="cta-section">
         <div className="cta-container">
           <h2>Ready to work together?</h2>
-          <p>I'm currently available for remote opportunities and interesting projects.</p>
+          <p>Feel free to reach out if you have an interesting project or opportunity.</p>
           <Link to="/contact" className="btn btn-primary">Contact Me</Link>
         </div>
       </section>

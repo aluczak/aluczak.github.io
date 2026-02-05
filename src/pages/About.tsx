@@ -1,5 +1,4 @@
 import { about } from '../data/about'
-import { contact } from '../data/contact'
 import Section from '../components/Layout/Section'
 import './About.css'
 
@@ -29,10 +28,6 @@ export default function About() {
               <h3>Education</h3>
               <p>{about.education.degree}</p>
               <p className="detail-subtitle">{about.education.institution}, {about.education.year}</p>
-            </div>
-            <div className="detail-card">
-              <h3>Availability</h3>
-              <p>{contact.availability}</p>
             </div>
             <div className="detail-card">
               <h3>Focus Areas</h3>

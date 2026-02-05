@@ -12,7 +12,6 @@ export default function Contact() {
         <div className="contact-content">
           <div className="contact-info">
             <p className="contact-lead">
-              I'm currently available for remote work and interesting projects. 
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
             
@@ -38,15 +37,6 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-          </div>
-          
-          <div className="contact-availability">
-            <h3>Current Availability</h3>
-            <div className="availability-badge">
-              <span className="availability-dot"></span>
-              <span>{contact.availability}</span>
-            </div>
-            <p className="availability-note">Currently working remotely. Happy to collaborate with teams worldwide.</p>
           </div>
         </div>
       </Section>

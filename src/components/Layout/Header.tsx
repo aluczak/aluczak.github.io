@@ -14,7 +14,6 @@ export default function Header() {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/skills', label: 'Skills' },
-    { path: '/certifications', label: 'Certifications' },
     { path: '/portfolio', label: 'Portfolio' },
     { path: '/contact', label: 'Contact' }
   ], [])
