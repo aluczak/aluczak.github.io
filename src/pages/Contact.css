@@ -43,49 +43,8 @@
   text-decoration: underline;
 }
 
-.contact-availability {
-  background-color: #f0fdf4;
-  border: 1px solid #bbf7d0;
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-}
-
-.contact-availability h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #166534;
-  margin: 0 0 1rem 0;
-}
-
-.availability-badge {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: #15803d;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.availability-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #22c55e;
-  border-radius: 50%;
-}
-
-.availability-note {
-  color: #166534;
-  font-size: 0.9rem;
-  margin: 0;
-  line-height: 1.5;
-}
-
 @media (max-width: 900px) {
   .contact-content {
     grid-template-columns: 1fr;
-  }
-
-  .contact-availability {
-    order: -1;
   }
 }

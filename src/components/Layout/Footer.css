@@ -33,12 +33,6 @@
   font-size: 0.95rem;
 }
 
-.footer-availability {
-  color: #10b981;
-  font-size: 0.9rem;
-  margin: 0;
-}
-
 .footer-links {
   display: flex;
   gap: 1.5rem;
